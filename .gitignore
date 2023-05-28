@@ -1,0 +1,32 @@
+# Ignore Mac system files
+.DS_store
+.idea
+
+# Ignore node_modules folder
+MAG
+MeSH
+
+# Ignore all text files
+*.zip
+
+# Ignore files related to API keys
+.env
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+deepxml/__pycache__/optimizers.cpython-36.pyc
+deepxml/__pycache__/models.cpython-36.pyc
+deepxml/__pycache__/match.cpython-36.pyc
+deepxml/__pycache__/evaluation.cpython-36.pyc
+deepxml/__pycache__/dataset.cpython-36.pyc
+deepxml/__pycache__/data_utils.cpython-36.pyc
+deepxml/__pycache__/__init__.cpython-36.pyc

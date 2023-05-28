@@ -1,0 +1,1000 @@
+   67  ./preprocess_eurlex.sh 
+   68  less /home/asingh3/PhD/CorNet/Dataset/glove.840B.300d.w2vformat.txt
+   69  ./preprocess_eurlex.sh 
+   70  python
+   71  free -h
+   72  vmstat
+   73  vmstat -s
+   74  history
+   75  cd /home/asingh3/PhD/CorNet/scripts/
+   76  cd ../Dataset/
+   77  cd /home/asingh3/PhD/CorNet/scripts/
+   78  cd ../Dataset/
+   79  python -m gensim.scripts.glove2word2vec --input glove.6B.300d.txt  --output
+   80  python -m gensim.scripts.glove2word2vec --input glove.6B.300d.txt  --output glove.6B.300d.w2vformat.txt
+   81  ls
+   82  python
+   83  cd -
+   84  ./preprocess_eurlex.sh 
+   85  ls /home/asingh3/PhD/CorNet/Dataset/EUR-Lex/emb_init.npy
+   86  ll /home/asingh3/PhD/CorNet/Dataset/EUR-Lex/emb_init.npy
+   87  pwd
+   88  ls
+   89  cd ..
+   90  ls
+   91  chmod 755 scripts/run_models.sh 
+   92  ./scripts/run_models.sh 
+   93  conda install -c conda-forge torchgpipe
+   94  pip install torchgpipe
+   95  ./scripts/run_models.sh 
+   96  history
+   97  python
+   98  conda install -c conda-forgepandas
+   99  conda install -c conda-forge pandas
+  100  ls
+  101  cd PhD/CorNet/Dataset/
+  102  ls
+  103  python
+  104  wget https://nlp.stanford.edu/data/glove.6B.zip
+  105  unzip glove.6B.zip 
+  106  ls
+  107  python
+  108  ll
+  109  cd..
+  110  ls
+  111  pwd
+  112  cd ..
+  113  ls
+  114  nvidia-smi -l 1
+  115  python
+  116  ls
+  117  mkdir CorNet_orig
+  118  cd CorNet_orig/
+  119  ls
+  120  git clone https://github.com/XunGuangxu/CorNet
+  121  cd CorNet/
+  122  ls
+  123  vim requirements.txt
+  124  pip install -r requirements.txt 
+  125  python
+  126  ls
+  127  ./scripts/preprocess_eurlex.sh 
+  128  python
+  129  pip install nltk==3.2.4
+  130  ls
+  131  conda activate pytorch12
+  132  pwd
+  133  ls
+  134  python --version
+  135  pip install -r requirements.txt 
+  136  python
+  137  ld
+  138  ll
+  139  ./scripts/preprocess_eurlex.sh 
+  140  less Dataset/glove.6B.300d.txt 
+  141  ls
+  142  cd Dataset/
+  143  ls
+  144  mkdir Glove
+  145  ll glove.*
+  146  ll glove.6B*
+  147  mv glove.6B* Glove/
+  148  ll
+  149  mv Glove/ Glove_New_not_to_use
+  150  ll
+  151  unzip glove.zip 
+  152  ll
+  153  cd EUR-Lex/results/
+  154  ls
+  155  cd ..
+  156  ls
+  157  mv models/ models_baseline
+  158  mv results/ results_baseline
+  159  ll
+  160  cd ../../
+  161  ll
+  162  ./scripts/run_models.sh 
+  163  history
+  164  cd /home/asingh3/PhD/CorNet/scripts/
+  165  ls
+  166  ./run_models.sh 
+  167  cd ..
+  168  ls
+  169  ./scripts/run_models.sh 
+  170  python
+  171  conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+  172  conda create --name pytorch12  python=3.6
+  173  conda activate pytorch12conda activate pytorch12
+  174  conda activate pytorch12
+  175  conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+  176  ls
+  177  cd scripts/
+  178  less preprocess_eurlex.sh 
+  179  less run_models.sh 
+  180  cd ..
+  181  pwd
+  182  cd Dataset/
+  183  ls
+  184  mkdir /home/asingh3/PhD/CorNet_orig/CorNet/Dataset
+  185  cp -r /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/
+  186  cp -r * /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/
+  187  ls
+  188  cp glove.6B.300d.w2vformat.txt /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/
+  189  cd /home/asingh3/PhD/CorNet_orig/CorNet/
+  190  ls
+  191  cd scripts/
+  192  ls
+  193  chmod 755 *.sh 
+  194  ll
+  195  history | grep nltk
+  196  cp ~/PhD/CorNet/Dataset/glove.6B.300d.txt .
+  197  ls
+  198  cp glove.6B.300d.txt ../Dataset/
+  199  ll
+  200  rm glove.6B.300d.txt 
+  201  cd /home/asingh3/PhD/CorNet_orig/CorNet
+  202  ./scripts/preprocess_eurlex.sh 
+  203  ls
+  204  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/EUR-Lex/models
+  205  ./scripts/run_models.sh 
+  206  ls /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/EUR-Lex/test_texts.npy
+  207  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/EUR-Lex/*.npy
+  208  ./scripts/preprocess_eurlex.sh 
+  209  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/EUR-Lex/*.npy
+  210  ./scripts/preprocess_eurlex.sh 
+  211  ./scripts/run_models.sh 
+  212  ls
+  213  cd Dataset/
+  214  ls
+  215  cd EUR-Lex/
+  216  ls
+  217  cd results/
+  218  python
+  219  cd ..
+  220  ls
+  221  python
+  222  conda list env
+  223  conda env list
+  224  conda activate pytorch12
+  225  ls
+  226  cd PhD/CorNet/
+  227  ls
+  228  cd ..
+  229  cd CorNet_orig/
+  230  ls
+  231  cd CorNet/
+  232  ls
+  233  cd Dataset/
+  234  ls
+  235  mkdir Mesh
+  236  cd Mesh/
+  237  ls
+  238  mkdir PubMed
+  239  cd PubMed/
+  240  wget http://participants-area.bioasq.org/Tasks/9a/trainingDataset/raw/allMeSH/
+  241  cd PhD/CorNet_orig/CorNet/
+  242  ls
+  243  wget https://github.com/titipata/pubmed_parser/blob/master/pubmed_parser/medline_parser.py
+  244  ls
+  245  python DownloadPubmed.py 
+  246  ls
+  247  less medline_parser.py 
+  248  rm medline_parser.py 
+  249  wget https://raw.githubusercontent.com/titipata/pubmed_parser/master/pubmed_parser/medline_parser.py
+  250  less medline_parser.py 
+  251  python DownloadPubmed.py 
+  252  wget https://raw.githubusercontent.com/titipata/pubmed_parser/master/pubmed_parser/utils.py
+  253  python DownloadPubmed.py 
+  254  ls
+  255  python DownloadPubmed.py 
+  256  python
+  257  ls
+  258  cd PhD/CorNet_orig/CorNet/Dataset/
+  259  ls
+  260  cd Mesh/
+  261  ls
+  262  cd PubMed/
+  263  ls
+  264  rm index.html 
+  265  curl -i --user abhisheksingh_unt:bhaiya http://participants-area.bioasq.org/Tasks/9a/trainingDataset/raw/selectionJournals/
+  266  curl -i --user abhisheksingh_unt:bhaiya http://participants-area.bioasq.org/Tasks/3a/trainingDataset/raw/selectionJournals/
+  267  ls
+  268  pwd
+  269  ls /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/Mesh/PubMed/pubmed*.xml.gz
+  270  python
+  271  less /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/Mesh/PubMed/pubmed20n0006.xml.gz
+  272  conda env list
+  273  conda activate pytorch12
+  274  cd /home/asingh3/PhD/CorNet_orig/CorNet/
+  275  ls
+  276  ll
+  277  pip install notebook
+  278  jupyter notebook
+  279  conda list env
+  280  conda activate pytorch12
+  281  pip install lxml
+  282  ll
+  283  pwd
+  284  cd PhD/CorNet_orig/CorNet/
+  285  lll
+  286  ll
+  287  less all_sentences.txt 
+  288  less all_mesh.txt 
+  289  wc -l all_*.txt 
+  290  rm all_*.txt 
+  291  wc -l all_*.txt 
+  292  wc -l articles.txt 
+  293  wc -l all_*.txt 
+  294  rm all_*.txt 
+  295  wc -l all_*.txt 
+  296  less all_sentences.txt 
+  297  python
+  298  conda activate pytorch12
+  299  cd PhD/CorNet_orig/CorNet/
+  300  ls
+  301  less all_sentences.txt 
+  302  ll
+  303  ll all_*.txt
+  304  wc -l all_*.txt
+  305  rm all_*.txt
+  306  wc -l all_*.txt
+  307  less all_mesh.txt 
+  308  wc -l all_*.txt
+  309  rm all_*.txt
+  310  wc -l all_*.txt
+  311  less all_mesh.txt 
+  312  rm all_*.txt
+  313  less all_mesh.txt 
+  314  wc -l all_*.txt
+  315  rm all_*.txt
+  316  ls
+  317  python DownloadPubmed.py 
+  318  ll
+  319  wc -l all_*.txt
+  320  python DownloadPubmed.py 
+  321  ls
+  322  cd Dataset/Mesh/PubMed/
+  323  ls
+  324  mkdir Train
+  325  mkdir Test
+  326  mv pubmed20n0029.xml.gz Test/
+  327  mv pubmed20n0030.xml.gz Test/
+  328  mv *.gz Train/
+  329  ls
+  330  cd -
+  331  python DownloadPubmed.py 
+  332  ll
+  333  wc -l Train_*
+  334  less Train_mesh_label.txt 
+  335  python DownloadPubmed.py 
+  336  wc -l Test_*
+  337  ll *.txt
+  338  less Train_mesh_label.txt 
+  339  less Test_mesh_label.txt 
+  340  less Train_sentences.txt 
+  341  conda activate pytorch12
+  342  cd /home/asingh3/PhD/CorNet_orig/CorNet
+  343  ls
+  344  cd Dataset/
+  345  ls
+  346  cd ..
+  347  cd configure/datasets/
+  348  ls
+  349  mv Pubmed.yaml PubMed.yaml 
+  350  ls
+  351  cd ..
+  352  cd models/
+  353  ls
+  354  mv AttentionXML-Pubmed.yaml AttentionXML-PubMed.yaml
+  355  ll
+  356  conda activate pytorch12
+  357  cd PhD/CorNet_orig/CorNet/
+  358  ls
+  359  pwd
+  360  ll
+  361  cp Train_sentences.txt Dataset/PubMed/train_texts.txt
+  362  cp Train_mesh_label.txt Dataset/PubMed/train_labels.txt
+  363  cp Test_sentences.txt Dataset/PubMed/test_texts.txt
+  364  cp Test_mesh_label.txt Dataset/PubMed/test_labels.txt
+  365  ls
+  366  ./scripts/preprocess_pubmed.sh 
+  367  ./scripts/run_models_Pubmed.sh 
+  368  conda activate pytorch12
+  369  cd /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/
+  370  ll
+  371  ls Mesh/
+  372  cp Mesh/PubMed/ .
+  373  cp -r Mesh/PubMed/ .
+  374  ls
+  375  cd PubMed/
+  376  ls
+  377  ll Test/
+  378  pwd
+  379  ls
+  380  watch -d -n 0.5 nvidia-smi
+  381  conda activate pytorch12
+  382  cd PhD/CorNet_orig/CorNet/
+  383  ls
+  384  ./scripts/run_models_Pubmed.sh 
+  385  conda activate pytorch12
+  386  cd PhD/CorNet_orig/CorNet/
+  387  ls
+  388  watch -d -n 0.5 nvidia-smi
+  389  conda activate pytorch12
+  390  cd PhD/CorNet_orig/CorNet/
+  391  conda list env
+  392  cd /home/asingh3/PhD/CorNet_orig/CorNet
+  393  ls
+  394  cd Dataset/
+  395  ls
+  396  mkdir Dragon
+  397  cd Dragon/
+  398  wget https://nlp.stanford.edu/projects/myasu/DRAGON/models/biomed_model.pt
+  399  ls
+  400  python
+  401  wget https://nlp.stanford.edu/projects/myasu/DRAGON/data_preprocessed.zip
+  402  ll
+  403  unzip data_preprocessed.zip 
+  404  ls
+  405  pwd
+  406  ls
+  407  ll
+  408  python
+  409  ll
+  410  ipconfig
+  411  ifconfig
+  412  cd ..
+  413  ls
+  414  cd PubMed/
+  415  ls
+  416  cd Train/
+  417  ls
+  418  less pubmed20n0001.xml.gz 
+  419  cd ..
+  420  ls
+  421  less train_labels.txt 
+  422  conda env list
+  423  conda activate pytorch12
+  424  pwd
+  425  ls
+  426  cd PhD/CorNet_orig/CorNet/
+  427  ls
+  428  pwd
+  429  conda create -y -n dragon python=3.8
+  430  conda activate dragon
+  431  pip install torch==1.10.1+cu113 torchvision -f https://download.pytorch.org/whl/cu113/torch_stable.html
+  432  pip install transformers==4.9.1 wandb nltk spacy==2.1.6
+  433  python -m spacy download en
+  434  pip install scispacy==0.3.0
+  435  pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.3.0/en_core_sci_sm-0.3.0.tar.gz
+  436  pip install torch-scatter==2.0.9 torch-sparse==0.6.12 torch-geometric==2.0.0 -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html
+  437  cd Dataset/Dragon/
+  438  ls
+  439  ll
+  440  import torch
+  441  python
+  442  conda list env
+  443  conda env list
+  444  conda activate pytorch12
+  445  cd Node2vec/
+  446  ls
+  447  ls input/
+  448  less input/karate.edgelist 
+  449  wc  input/karate.edgelist 
+  450  less /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec.txt
+  451  pwd
+  452  ls
+  453  git clone https://github.com/NilsFrahm/Node2vec.git
+  454  ls
+  455  cd Node2vec/
+  456  ls
+  457  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt --dimensions 200 --num_walks 5 --walk_length 20 --window_size 5 --cpu_cores 8 --workers 8 
+  458  pip install numba
+  459  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt --dimensions 200 --num_walks 5 --walk_length 20 --window_size 5 --cpu_cores 8 --workers 8 
+  460  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt --dimensions 200 --num_walks 5 --walk_length 20 --window_size 5 --cpu_cores 4 --workers 4 
+  461  pip install node2vec
+  462  pip install networkx
+  463  python
+  464  ls
+  465  cd PhD/CorNet_orig/CorNet/
+  466  ls
+  467  cd Node2Vec/
+  468  ls
+  469  pwd
+  470  python
+  471  conda activate pytorch12
+  472  cd PhD/CorNet_orig/CorNet/
+  473  ls
+  474  conda env list
+  475  conda activate dragon
+  476  ls
+  477  cd PhD/
+  478  ls
+  479  cd CorNet_orig/CorNet/Dataset/Dragon/
+  480  ls
+  481  cd ..
+  482  cd ..ls
+  483  ls 
+  484  cd ..
+  485  ls
+  486  cd Node2vec/
+  487  ls
+  488  cd output/
+  489  ls
+  490  less '2022_12_10 16_54_14 _home_asingh3_PhD_CorNet_orig_CorNet_Node2Vec_all_mesh_node2Vec_head.txt' 
+  491  ll
+  492  conda activate pytorch12
+  493  cd Node2vec/
+  494  ls
+  495  history
+  496  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  497  ls
+  498  less README.md 
+  499  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  500  LS
+  501  ls
+  502  ls input/
+  503  ls  /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt 
+  504  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  505  cd input/
+  506  mkdir intermediate_results
+  507  cd ..
+  508  python node2vec.py --input /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  509  ls
+  510  cd output/
+  511  ls
+  512  ll
+  513  cd ..
+  514  cd  input/
+  515  ls
+  516  cp /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec.txt  .
+  517  ll
+  518  cd ..
+  519  python node2vec.py --input inout/all_mesh_node2Vec.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  520  python node2vec.py --input input/all_mesh_node2Vec.txt --num_walks 5 --walk_length 5 --window_size 5 --cpu_cores 4 --workers 4
+  521  ls input/
+  522  ls input/intermediate_results/
+  523  conda list env
+  524  conda env list
+  525  conda activate pytorch12
+  526  pip install pgl
+  527  ls
+  528  git clone https://github.com/PaddlePaddle/PGL.git
+  529  cd P
+  530  ls
+  531  cd PGL/
+  532  ls
+  533  cd legacy/examples/node2vec/
+  534  ls
+  535  python node2vec.py --use_cuda --dataset /home/asingh3/Node2vec/input/all_mesh_node2Vec.txt --save_path ./tmp/node2vec/ --offline_learning --epoch 200
+  536  pip install paddle
+  537  pip install paddlepaddle-gpu
+  538  cp /home/asingh3/PhD/CorNet_orig/CorNet/Node2Vec/all_mesh_node2Vec_head.txt .
+  539  python node2vec.py --use_cuda --dataset all_mesh_node2Vec_head.txt --save_path ./tmp/node2vec/ --offline_learning --epoch 200
+  540  conda activate pytorch12
+  541  cd PhD/CorNet_orig/CorNet/
+  542  ls
+  543  cd Dataset/Mesh/
+  544  ls
+  545  cd PubMed/
+  546  ls
+  547  cd Train/
+  548  ls
+  549  cd ../../../PubMed/
+  550  ls
+  551  cd Train/
+  552  ls
+  553  cd ..
+  554  l
+  555  cd ..
+  556  ls
+  557  cd ..
+  558  ls
+  559  nvcc --version
+  560  cd Node2vec/
+  561  ls
+  562  cd input/
+  563  ls
+  564  pwd
+  565  ls
+  566  cd ..
+  567  cd Node2vec/
+  568  pwd
+  569  conda activate pytorch12
+  570  cd Node2vec/
+  571  ls
+  572  python
+  573  conda activate pytorch12
+  574  python
+  575  ls
+  576  less README.md 
+  577  cd input/
+  578  ls
+  579  pwd
+  580  cd ,,
+  581  cd ..
+  582  ls
+  583  less node2vec.py 
+  584  git history
+  585  git --help
+  586  git diff
+  587  ls
+  588  less README.md 
+  589  c d..
+  590  cd ..
+  591  ls
+  592  cd eliorc/
+  593  ls
+  594  cd node2vec/
+  595  ls
+  596  cp example.py pubmed_exampl.py
+  597  mv pubmed_exampl.py pubmed_example.py 
+  598  ls
+  599  ls input/
+  600  mv all_mesh_node2Vec_10000.txt input/
+  601  ls
+  602  less pubmed_example.py 
+  603  mkdir tmp_data
+  604  ls
+  605  python pubmed_example.py 
+  606  python
+  607  pipenv install jsonschema==3.0.2
+  608  pip install jsonschema==3.0.2
+  609  python
+  610  pip install node2vec
+  611  pip uninstall node2vec
+  612  python
+  613  python pubmed_example.py 
+  614  pip install pandas
+  615  python pubmed_example.py 
+  616  conda activate pytorch12
+  617  cd Node2vec/
+  618  ls
+  619  cd ..
+  620  mkdir eliorc
+  621  cd eliorc/
+  622  git clone https://github.com/eliorc/node2vec.git
+  623  ls
+  624  cd node2vec/
+  625  ls
+  626  mkdir input
+  627  head 10000 /home/asingh3/Node2vec/input/all_mesh_node2Vec.txt > all_mesh_node2Vec_10000.txt
+  628  head -10000 /home/asingh3/Node2vec/input/all_mesh_node2Vec.txt > all_mesh_node2Vec_10000.txt
+  629  wc all_mesh_node2Vec_10000.txt 
+  630  less all_mesh_node2Vec_10000.txt 
+  631  ls
+  632  sudo activate pytorch12
+  633  conda activate pytorch12
+  634  ls 
+  635  cd eliorc/node2vec/
+  636  ls
+  637  less pubmed_example.py 
+  638  python pubmed_example.py 
+  639  cat pubmed_example.py 
+  640  python
+  641  cp input/all_mesh_node2Vec_10000.txt /home/asingh3/VHRanger/nodevectors/input/
+  642  cat /proc/meminfo
+  643  vmstat
+  644  top
+  645  conda activate pytorch12
+  646  cd PhD/CorNet_orig/CorNet/
+  647  ls
+  648  cd Node2Vec/
+  649  ls
+  650  less TrainNode2Vec.py 
+  651  less /proc/cpuinfo
+  652  ls
+  653  pwd
+  654  ls
+  655  cp all_mesh_node2Vec.txt header_all_mesh_node2Vec.txt 
+  656  sed  -i '1i FromNodeId\tToNodeId' header_all_mesh_node2Vec.txt 
+  657  less header_all_mesh_node2Vec.txt 
+  658  mv header_all_mesh_node2Vec.txt /home/asingh3/VHRanger/nodevectors/input
+  659  conda activate pytorch12
+  660  du
+  661  du -hs .
+  662  du -hsc *
+  663  cd  PhD/
+  664  du -hsc *
+  665  cd CorNet
+  666  du -hsc *
+  667  cd Dataset/
+  668  du -hsc *
+  669  rm glove.840B.300d.txt 
+  670  rm glove.840B.300d.w2vformat.txt 
+  671  rm glove.6B.100d.txt
+  672  rm glove.6B.200d.txt
+  673  rm glove.6B.50d.txt
+  674  ll
+  675  c d..
+  676  cd ..
+  677  du -hsc *
+  678  cd ../CorNet_orig/
+  679  du -hsc *
+  680  cd CorNet/
+  681  du -hsc *
+  682  cd Dataset/
+  683  du -hsc *
+  684  cd Dragon/
+  685  du -hsc *
+  686  cd data_preprocessed/
+  687  ls
+  688  cd umls/
+  689  ls
+  690  less concept_names.txt 
+  691  cd  
+  692  ls
+  693  cd eliorc/
+  694  ls
+  695  cd node2vec/
+  696  ls
+  697  cd tmp_data/
+  698  ls
+  699  ll
+  700  cd ..
+  701  ls
+  702  python pubmed_example.py 
+  703  cd ..
+  704  mkdir snap-stanford
+  705  cd snap-stanford/
+  706  git clone https://github.com/snap-stanford/snap.git
+  707  ls
+  708  cd snap/examples/node2vec/
+  709  make all
+  710  cd ..
+  711  ls
+  712  rm -r snap-stanford/
+  713  ll
+  714  ks
+  715  ls
+  716  ll
+  717  ls
+  718  mkdir VHRanger
+  719  cd VHRanger/
+  720  git clone https://github.com/VHRanger/nodevectors.git
+  721  ls
+  722  cd nodevectors/
+  723  ls
+  724  python pubmed_example.py 
+  725  pip install csrgraph
+  726  python pubmed_example.py 
+  727  ls
+  728  mkdir input
+  729  pwd
+  730  ls input/
+  731  python pubmed_example.py 
+  732  ls
+  733  cd input/
+  734  ls
+  735  cp all_mesh_node2Vec_10000.txt tmp.txt
+  736  awk 'BEGIN{print "FRUITS\tApple"}1' tmp.txt 
+  737  sed  -i '1i FID IID PAT MAT SEX PHENOTYPE' tmp.txt 
+  738  less tmp.txt 
+  739  pwd
+  740  less
+  741  ls
+  742  head -10000 header_all_mesh_node2Vec.txt > tmp_header_all_mesh_node2Vec.txt 
+  743  vim tmp_header_all_mesh_node2Vec.txt 
+  744  cd ..
+  745  ls input/
+  746  python pubmed_example.py 
+  747  ll
+  748  rm embeddings.model.zip 
+  749  python pubmed_example.py 
+  750  ll
+  751  less all_mesh_node2Vec_embeddings.model.zip 
+  752  conda env list
+  753  cpnda activate pytorch12
+  754  conda activate pytorch12
+  755  history | less
+  756  conda activate pytorch12
+  757  cd Node2vec/
+  758  ls
+  759  ls input/
+  760  cd ..
+  761  ls
+  762  cd VHRanger/
+  763  ls
+  764  cd nodevectors/
+  765  ls
+  766  ll
+  767  ls input/
+  768  less input/header_all_mesh_node2Vec.txt 
+  769  less input/tmp.txt 
+  770  conda activate pytorch12
+  771  cd PhD/CorNet_orig/CorNet/Dataset/
+  772  ls
+  773  tar –xvzf AmazonCat-13K.tar.gz 
+  774  tar -xvzf AmazonCat-13K.tar.gz 
+  775  cd AmazonCat-13K/
+  776  ls
+  777  less test_raw_texts.txt 
+  778  less test_labels.txt 
+  779  less train_
+  780  less train_labels.txt 
+  781  cd ..
+  782  ls
+  783  cd PubMed/
+  784  ls
+  785  cd Test/
+  786  ls
+  787  cd ..
+  788  ls
+  789  cd Mesh/
+  790  ls
+  791  cd PubMed/
+  792  ls
+  793  cd Train/
+  794  ls
+  795  cd ../../
+  796  ls
+  797  cd ..
+  798  ls
+  799  cd ..
+  800  ls
+  801  less Test_mesh_label.txt 
+  802  conda activate pytorch12
+  803  ls
+  804  cd VHRanger/
+  805  ls
+  806  cd nodevectors/
+  807  ls
+  808  less pubmed_example.py 
+  809  cp pubmed_example.py amazon13K_nodevectors.py
+  810  ls
+  811  cd input/
+  812  ls
+  813  mkdir mesh
+  814  cd mesh/
+  815  ls
+  816  cd ..
+  817  ls *.txt
+  818  mv *.txt mesh/
+  819  ls
+  820  mkdir amazon13k
+  821  cd amazon13k/
+  822  cp /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/all_Amazon13K_* .
+  823  ls
+  824  mkdir out
+  825  ls
+  826  vim all_Amazon13K_train_node2Vec.txt 
+  827  less all_Amazon13K_train_node2Vec.txt 
+  828  vim all_Amazon13K_test_node2Vec.txt 
+  829  less all_Amazon13K_test_node2Vec.txt 
+  830  less all_Amazon13K_train_node2Vec.txt 
+  831  cd ../../
+  832  ls
+  833  python amazon13K_nodevectors.py 
+  834  pwd
+  835  ls input/amazon13k/out/
+  836  conda activate pytorch12
+  837  cd PhD/CorNet_orig/CorNet/Dataset/
+  838  ls
+  839  cd AmazonCat-13K/
+  840  ls
+  841  pwd
+  842  ls
+  843  conda activate pytorch12
+  844  cd /home/asingh3/VHRanger/nodevectors/input/amazon13k/
+  845  ls
+  846  cd out/
+  847  ls
+  848  less Amazon13K_train_node2Vec_embeddings.model.zip 
+  849  ls
+  850  unzip Amazon13K_train_node2Vec_embeddings.model.zip 
+  851  ls
+  852  less metadata.json 
+  853  python
+  854  pip install nodevectors
+  855  python
+  856  conda activate pytorch12
+  857  cd VHRanger/nodevectors/
+  858  ls
+  859  cd input/
+  860  ls
+  861  cd amazon13k/
+  862  ls
+  863  cd out/
+  864  l
+  865  python
+  866  pwd
+  867  conda activate pytorch12
+  868  ls
+  869  cd PhD/CorNet_orig/CorNet/
+  870  ls
+  871  pwd
+  872  ls
+  873  ./scripts/preprocess_others.sh 
+  874  python
+  875  ./scripts/preprocess_others.sh 
+  876  ./scripts/run_models.sh 
+  877  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/results/
+  878  ./scripts/preprocess_others.sh 
+  879  ./scripts/run_models.sh 
+  880  less /scripts/run_models.sh 
+  881  less scripts/run_models.sh 
+  882  ./scripts/run_models.sh 
+  883  conda activate pytorch12
+  884  cd /home/asingh3/PhD/CorNet_orig/CorNet
+  885  ll
+  886  cd scripts/
+  887  ls
+  888  ll
+  889  cd ..
+  890  ls
+  891  cd Dataset/
+  892  ls
+  893  pwd
+  894  ls Amazon
+  895  ls Amazon-670K.zip 
+  896  ls AmazonCat-13K
+  897  ls
+  898  cd ..
+  899  conda list env
+  900  conda env list
+  901  ls Dataset/AmazonCat-13K
+  902  pwd
+  903  cd Dataset/AmazonCat-13K/
+  904  ls
+  905  pwd
+  906  mkdir models
+  907  mkdir results
+  908  ls
+  909  cd ..
+  910  cd PubMed/
+  911  ;s
+  912  ls
+  913  cd ../AmazonCat-13K/
+  914  ls
+  915  ls /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/train_texts.npy
+  916  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/train_texts.npy
+  917  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/train_labels.npy
+  918  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/test_texts.npy
+  919  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/emb_init.npy
+  920  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/results
+  921  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/labels_binarizer
+  922  ll /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/
+  923  nvidia-smi 
+  924  cd /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/
+  925  ls
+  926  mkdir models_cornet_node2vec
+  927  mkdir results_cornet_node2vec
+  928  ls results
+  929  ls models
+  930  conda activate pytorch12
+  931  cd PhD/CorNet_orig/CorNet/
+  932  ./scripts/run_models
+  933  ./scripts/run_models.sh 
+  934  ls
+  935  less requirements.txt 
+  936  pip install -r requirements.txt 
+  937  ./scripts/run_models.sh 
+  938  conda activate pytorch12
+  939  conda activate pytorch12
+  940  cd PhD/CorNet_orig/CorNet/
+  941  ls
+  942  python
+  943  conda activate pytorch12
+  944  cd PhD/CorNet_orig/CorNet/
+  945  ls
+  946  cat requirements.txt 
+  947  pwd
+  948  ./scripts/run_models.sh 
+  949  python
+  950  clear
+  951  ./scripts/run_models.sh 
+  952  clear
+  953  ./scripts/run_models.sh 
+  954  python
+  955  nvidia-smi 
+  956  git diff
+  957  git branch
+  958  git branch cornet_node2vec
+  959  git branch
+  960  git checkout cornet_node2vec
+  961  git checkout master
+  962  git push origin cornet_node2vec
+  963  ls
+  964  ll
+  965  cd .git/
+  966  ls
+  967  less HEAD 
+  968  less info/exclude 
+  969  cd ..
+  970  git diff
+  971  git remote -v
+  972  git branch
+  973  git push AbhishekCornet cornet_node2vec
+  974  git log
+  975  git diff
+  976  git branch
+  977  ls
+  978  conda activate pytorch12
+  979  cd  /home/asingh3/PhD/CorNet_orig/CorNet
+  980  clear
+  981  ./scripts/run_models.sh 
+  982  cat scripts/run_models.sh 
+  983  ll
+  984  ls Dataset/AmazonCat-13K/results
+  985  ll Dataset/AmazonCat-13K/results
+  986  ll Dataset/AmazonCat-13K/results_cornet_node2vec/
+  987  ./scripts/run_models.sh 
+  988  conda activate pytorch12
+  989  cd PhD/CorNet_orig/
+  990  ls
+  991  cd CorNet/
+  992  ls
+  993  conda activate pytorch12
+  994  cd /home/asingh3/PhD/CorNet_orig/CorNet/Dataset/AmazonCat-13K/models
+  995  ls
+  996  cd /home/asingh3/PhD/CorNet_orig/CorNet/Dataset
+  997  ls
+  998  cd AmazonCat-13K/
+  999  ls
+ 1000  cd models
+ 1001  ls
+ 1002  cd ..
+ 1003  ls
+ 1004  ls models_cornet_node2vec/
+ 1005  ls
+ 1006  cd results_cornet_node2vec/
+ 1007  ls
+ 1008  cd /home/asingh3/PhD/CorNet_orig/CorNet
+ 1009  screen -S train_bert
+ 1010  screen -r train_bert
+ 1011  conda activate pytorch12
+ 1012  cd 
+ 1013  ls
+ 1014  cd PhD/CorNet_orig/CorNet/
+ 1015  ls
+ 1016  ./scripts/run_models.sh 
+ 1017  pwd
+ 1018  conda activate pytorch12
+ 1019  nvidia-smi 
+ 1020  screen -ls
+ 1021  conda activate pytorch12
+ 1022  screen -r train_bert
+ 1023  ./scripts/run_models.sh 
+ 1024  conda activate pytorch12
+ 1025  ./scripts/run_models.sh 
+ 1026  screen -r 
+ 1027  screen -ls
+ 1028  conda activate pytorch12
+ 1029  screen -r 9127
+ 1030  screen -r 9127.train_bert
+ 1031  conda activate pytorch12
+ 1032  cd PhD/CorNet_orig/CorNet/
+ 1033  ls
+ 1034  conda activate pytorch12
+ 1035  cd PhD/CorNet_orig/CorNet/
+ 1036  l
+ 1037  ./scripts/run_models.sh 
+ 1038  vi deepxml/cornet.py 
+ 1039  ./scripts/run_models.sh 
+ 1040  screen -S train_bert
+ 1041  conda activate pytorch12
+ 1042  ./scripts/run_models.sh 
+ 1043  less deepxml/cornet.py 
+ 1044  vim deepxml/cornet.py 
+ 1045  ./scripts/run_models.sh 
+ 1046  conda activate pytorch12
+ 1047  cd PhD/CorNet_orig/CorNet/
+ 1048  ls
+ 1049  ./scripts/run_models
+ 1050  ./scripts/run_models.sh 
+ 1051  history | grep screen
+ 1052  screen -S train_bert
+ 1053  screen -r train_bert
+ 1054  conda activate pytorch12
+ 1055  ./scripts/run_models.sh 
+ 1056  conda list cudnn
+ 1057  conda env list
+ 1058  conda activate pytorch12
+ 1059  conda list cudnn
+ 1060  python
+ 1061  numba -s
+ 1062  nvcc --version
+ 1063  conda search cudatoolkit
+ 1064  nvcc --version | grep "release" | awk '{print $6}' | cut -c2-
+ 1065  history
+ 1066  history > history.txt
