@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-DATASET=MAG
+DATASET=MeSH
 
+echo "Processing Dataset " $DATASET
+
+printf 'Processing Dataset %s\n' $DATASET
 python transform_data.py --dataset $DATASET
 
 python preprocess.py \
